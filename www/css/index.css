@@ -1,0 +1,151 @@
+:root {
+  --black: black;
+  --primary: rgb(33, 137, 216);
+  --secondary: #993399;
+  --success: green;
+  --warn: gold;
+  --danger: red;
+  --construir: white;
+  --visual: rgb(180, 177, 177);
+}
+/*--------------------------------------------Area BG-----------------------------------------------------*/
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+  
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-success {
+  background-color: var(--success);
+}
+
+.bg-warn {
+  background-color: var(--warn);
+}
+
+.bg-danger {
+  background-color: var(--danger);
+}
+
+.bg-construir {
+  background-color: var(--construir);
+}
+
+.bg-visual {
+  background-color: var(--visual);
+}
+
+/*--------------------------------------------Area inputs-------------------------------------------------*/
+.input-pesquisa {
+  background-color: var(--visual) !important;
+  color: var(--construir) !important;
+  border: 0.5px solid var(--construir) !important;
+}
+
+.input-pesquisa::placeholder {
+  color: var(--construir) !important;
+}
+
+/*--------------------------------------------Area textos--------------------------------------------------*/
+
+.txt-black {
+  color: var(--black) !important;
+}
+
+.txt-primary {
+  font-size: 33px !important;
+  color: var(--primary) !important;
+}
+
+.txt-secondary {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  color: var(--secondary) !important;
+}
+
+.txt-success {
+  color: var(--success) !important;
+}
+
+.txt-visual {
+  color: var(--visual) !important;
+}
+
+.txt-warn {
+  color: var(--warn) !important;
+}
+
+.txt-construir {
+  color:var(--construir) !important;
+}
+
+a.txt-primary {
+  color: var(--primary) !important;
+}
+
+li.txt-primary {
+  background: var(--construir) !important;
+  color: var(--primary) !important;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+.fw-bold-input {
+  font-weight: 900 !important;
+}
+
+/*-------------------------------------------Area botoes------------------------------------------------*/
+.border-bottom-pesquisa {
+  border: 1px solid var(--visual) !important;
+}
+
+/*-------------------------------------Area posição------------------------------------------------*/
+.justify-content-center {
+  justify-content: center;
+}
+
+/*--------------------------------------------Stilos cores----------------------------------------*/
+.btn-primary-outline {
+  background: var(--black) !important;
+  border: 1px solid var(--primary);
+  color: var(--primary) !important;
+}
+
+.btn-secondary-outline {
+  background: var(--construir) !important;
+  border: 1px solid var(--primary);
+  color: var(--primary) !important;
+}
+
+.btn-success-outline {
+  background: var(--success) !important;
+  border: 5px solid var(--construir) !important;
+  color: var(--construir) !important;
+}
+
+.btn-warn-outline {
+  background: var(--warn) !important;
+  border: 5px solid var(--construir) !important;
+  color: var(--construir) !important;
+}
+
+.btn-danger-outline {
+  background: var(--danger) !important;
+  border: 5px solid var(--construir) !important;
+  color: var(--construir) !important;
+}
+
+.btn-visual-outline {
+  background: var(--primary) !important;
+  border: 5px solid var(--construir);
+  color: var(--construir) !important;
+}
