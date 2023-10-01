@@ -13,7 +13,9 @@ var app = new Framework7({
       path: "/index/",
       url: "index.html",
       on: {
-        pageInit: function (e, page) {},
+        pageInit: function (e, page) {
+          
+        },
       },
     },
     {
@@ -38,4 +40,4 @@ var app = new Framework7({
   // ... other parameters
 })
 
-var mainView = app.views.create(".view-main")
+var mainView = app.views.create(".view-main", {url:'/index/'})
