@@ -14,7 +14,7 @@ var app = new Framework7({
       url: "index.html",
       on: {
         pageInit: function (e, page) {
-          
+           
         },
       },
     },
